@@ -34,7 +34,7 @@ const Home = () => {
   useEffect(() => {
     // Redirect if not logged in
     if (!user) {
-      navigate("/auth");
+      navigate("/login");
       return;
     }
 
