@@ -37,7 +37,7 @@ const EditDeleteProduct = () => {
     imageUrl: "",
     sizes: [],
   });
-  const API_URL = "http://10.254.201.27:5000";
+  const API_URL = "https://sportsync-server.onrender.com";
   useEffect(() => {
     const fetchProduct = async () => {
       setLoading(true);

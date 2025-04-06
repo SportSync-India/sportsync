@@ -53,7 +53,7 @@ const AddProduct = () => {
       formData.append("description", product.description);
       formData.append("addedBy", user.uid);
 
-      const response = await fetch("http://localhost:5000/upload", {
+      const response = await fetch("https://sportsync-server.onrender.com/upload", {
         method: "POST",
         body: formData,
       });

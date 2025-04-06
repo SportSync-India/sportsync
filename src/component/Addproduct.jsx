@@ -88,7 +88,7 @@ const AddProduct = () => {
 
       // Using axios instead of fetch
       const response = await axios.post(
-        "http://10.254.201.27:5000/upload",
+        "https://sportsync-server.onrender.com/upload",
         formData,
         {
           headers: {
